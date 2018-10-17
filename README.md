@@ -2,7 +2,7 @@
 
 Collection of Jupyter notebooks to be used in Binder
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ihnorton/SlicerNotebooks/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lassoan/SlicerNotebooks/master)
 
 # Running Dockerfile
 
