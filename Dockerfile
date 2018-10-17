@@ -1,4 +1,4 @@
-FROM ihnorton/slicer2binder:70b1b1427772
+FROM ihnorton/slicer2binder:2959d6a954
 
 COPY --chown=sliceruser . ${HOME}/nb
 WORKDIR ${HOME}/nb
