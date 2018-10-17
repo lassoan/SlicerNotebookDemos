@@ -1,11 +1,11 @@
 # SlicerNotebooks
+
 Collection of Jupyter notebooks to be used in Binder
 
-# Running Dockerfile locally
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ihnorton/SlicerNotebooks/master)
 
-Docker must be launched with several `-p` arguments in order to expose the notebook server and VNC ports:
+# Running Dockerfile
 
-    > docker build . -t slicerjupyter
-    > docker run -p 8888:8888 -p49053:49053 -ti slicerjupyter /bin/bash
+Please see instructions for the primary image:
 
-Now connect to `localhost:8888` in a browser, or `vnc://localhost:49503` in a VNC viewer.
+  - https://github.com/ihnorton/dockerfiles/tree/master/slicer2binder
