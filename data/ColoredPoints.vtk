@@ -1,0 +1,21 @@
+# vtk DataFile Version 2.0
+Verts example
+ASCII
+DATASET POLYDATA
+POINTS 4 float
+0.0 0.0 0.0
+1.0 0.0 0.0
+0.0 1.0 0.0
+0.0 0.0 1.0
+VERTICES 4 8
+1 0
+1 1
+1 2
+1 3
+POINT_DATA 4
+SCALARS phenotype float 
+LOOKUP_TABLE default
+0.0
+1.0
+2.0
+3.0
